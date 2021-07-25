@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../assets/scss/soft-design-system/mixins/mixins.scss",
+        "../assets/scss/soft-design-system/mixins/_badge.scss",
+        "../assets/scss/soft-design-system/mixins/_hover.scss",
+        "../assets/scss/soft-design-system/mixins/_colored-shadows.scss",
+        "../assets/scss/soft-design-system/mixins/_social-buttons.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}
