@@ -27,7 +27,7 @@
   <nav class="navbar navbar-expand-lg navbar-white  bg-gradient-white z-index-3 py-3">
     <div class="container">
       <a class="navbar-brand font-weight-bolder ms-sm-3" href="index.html" rel="tooltip" title="builders.uy" data-placement="bottom">Builders.uy</a>
-      <a href="/login.html" class="btn btn-sm  bg-gradient-info  btn-round mb-0 ms-auto d-lg-none d-block">¡unete!</a>
+      <a href="login.html" class="btn btn-sm  bg-gradient-info  btn-round mb-0 ms-auto d-lg-none d-block">¡unete!</a>
       <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon mt-2">
           <span class="navbar-toggler-bar bar1"></span>
@@ -52,63 +52,143 @@
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
           <li class="nav-item">
-            <a href="/login.html" class="btn btn-sm  bg-gradient-info  btn-round mb-0 me-1" role="button">¡unete!</a>
+            <a href="login.html" class="btn btn-sm  bg-gradient-info  btn-round mb-0 me-1" role="button">¡unete!</a>
           </li>
         </ul>
       </div>
     </div>
     </nav>
     <!-- End Navbar -->
-  <!-- -------- START HEADER 8 w/ card over right bg image ------- -->
-  <header>
-    <div class="page-header min-vh-85">
-      <div>
-        <img class="position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0" src="./assets/img/constru.jpg" alt="image">
+  <!-- -------- VIDEO ------- -->
+  <section>
+  <div class="container">
+    <div class="row">
+      <div class="embed-responsive embed-responsive-16by9 col-12 d-flex justify-content-center" style="padding-top: 20px;">
+        <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/k5DvaK_mKGc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+    </div>
+  </div>
+  </section>
+    <!-- -------- FINALIZA VIDEO ------- -->
+    <!-- -------- CONOCE A NUESTRO EQUIPO -------- -->
+    <section class="pt-sm-8 pb-5 position-relative bg-info">
+      <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+        <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>wave-down</title>
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#FFFFFF" fill-rule="nonzero">
+              <g id="wave-down">
+                <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+              </g>
+            </g>
+          </g>
+        </svg>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-7 d-flex justify-content-center flex-column">
-            <div class="card d-flex blur justify-content-center p-4 shadow-lg my-sm-0 my-sm-6 mt-8 mb-5">
-              <div class="text-center">
-                <h3 class="text-gradient text-info">Creemos oportunidades juntos</h3>
-                <p class="mb-0">
-                  Estamos siempre abiertos a recibir tus consultas o nuevas oportunidades de proyecto.
-                </p>
-              </div>
-              <form id="contact-form" method="post" autocomplete="off">
-                <div class="card-body pb-2">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <label>¿Como te llamas?</label>
-                      <div class="input-group mb-4">
-                        <input class="form-control" placeholder="Mi nombre es.." aria-label="Mi nombre es.." type="text">
-                      </div>
+          <div class="col-md-8 text-start mb-5 mt-5">
+            <h3 class="text-white z-index-1 position-relative">Conoce a nuestro equipo</h3>
+            <p class="text-white opacity-8 mb-0">Somos pocos, y, a la vez somos muchos. Al equipo de trabajo de Builders.uy se le suma la comunidad de inversores y promotores que hacen viable este proyecto.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="card card-profile overflow-hidden">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md" src="./assets/img/ale.jpg" alt="image">
                     </div>
-                    <div class="col-md-6 ps-md-2">
-                      <label>Email</label>
-                      <div class="input-group">
-                        <input type="email" class="form-control" placeholder="ejemplo hola@builders.uy">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group mb-0 mt-md-0 mt-4">
-                    <label>¿En que proyecto podemos trabajar juntos?</label>
-                    <textarea name="message" class="form-control" id="message" rows="6" placeholder="Describe tu proyecto en 250 caracteres"></textarea>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12 text-center">
-                      <button type="submit" class="btn bg-gradient-info mt-3 mb-0">Enviar mensaje</button>
-                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                  <div class="card-body">
+                    <h5 class="mb-0">Alejandro Arcardini</h5>
+                    <h6 class="text-info">Arquitecto</h6>
+                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, eum?</p>
                   </div>
                 </div>
-              </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-6">
+            <div class="card card-profile mt-lg-0 mt-5 overflow-hidden">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md" src="./assets/img/agus.jpg" alt="image">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                  <div class="card-body">
+                    <h5 class="mb-0">Agustin Dupuy</h5>
+                    <h6 class="text-info">Arquitecto</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, accusamus..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-6 col-6">
+            <div class="card card-profile overflow-hidden z-index-2">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md" src="./assets/img/flo.jpg" alt="image">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                  <div class="card-body">
+                    <h5 class="mb-0">Florencia Scola</h5>
+                    <h6 class="text-info">Arquitecta</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ea?.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-6">
+            <div class="card card-profile mt-lg-0 mt-5 overflow-hidden z-index-2">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 pe-lg-0">
+                  <a href="javascript:;">
+                    <div class="p-3 pe-md-0">
+                      <img class="w-100 border-radius-md" src="./assets/img/group.jpg" alt="image">
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-8 col-md-6 col-12 ps-lg-0 my-auto">
+                  <div class="card-body">
+                    <h5 class="mb-0">¡Tu!</h5>
+                    <h6 class="text-info">Cumplidor de sueños</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perferendis?</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- -------- END HEADER 8 w/ card over right bg image ------- -->
+      <div class="position-absolute w-100 bottom-0 mn-n1">
+        <svg width="100%" viewBox="0 -1 1920 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title>wave-up</title>
+          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g transform="translate(0.000000, 5.000000)" fill="#FFFFFF" fill-rule="nonzero">
+              <g id="wave-up" transform="translate(0.000000, -5.000000)">
+                <path d="M0,70 C298.666667,105.333333 618.666667,95 960,39 C1301.33333,-17 1621.33333,-11.3333333 1920,56 L1920,165 L0,165 L0,70 Z" fill="#FFF"></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </section>
+    <!-- FINALIZA EQUIPO -->
   <!-- -------- FOOTER ------- -->
   <footer class="footer pt-5 mt-5">
     <hr class="horizontal dark mb-5">
@@ -154,7 +234,7 @@
             <h6 class="text-gradient text-info text-sm">Nosotros</h6>
             <ul class="flex-column ms-n3 nav">
               <li class="nav-item">
-                <a class="nav-link" href="javascript:;">
+                <a class="nav-link" href="nosotros.html">
                   ¿Quíenes somos?
                 </a>
               </li>
